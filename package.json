@@ -4,10 +4,10 @@
   "description": "A web app to read csv files",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Utkarsh Singh",
+  "author": "Sanket Singh",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
