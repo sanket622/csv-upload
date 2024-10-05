@@ -1,6 +1,6 @@
 // importing packages
 const express = require('express');
-const port = process.env.port || 8000;
+const port = process.env.port || 8080;
 const app = express();
 const path = require('path');
 

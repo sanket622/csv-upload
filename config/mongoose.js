@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 
 // MAKING CONNECTION 
-const DB = mongoose.connect('mongodb://localhost:27017/csvUploads', { useNewUrlParser: true, useUnifiedTopology: true });
+const DB = mongoose.connect('mongodb+srv://sanketkumar0068:1234@cluster0.e0pab.mongodb.net/CSVUpload?retryWrites=true&w=majority&appName=Cluster0');
 
 
 // Handle connection status

@@ -1,6 +1,3 @@
-console.log('Im in');
-
-
 document.getElementById("go").addEventListener("click", searchTable);
 
 function searchTable() {
