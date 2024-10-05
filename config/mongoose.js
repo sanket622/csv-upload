@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-const DB = mongoose.connect('mongodb+srv://sanketkumar0068:1234@cluster0.e0pab.mongodb.net/CSVUpload?retryWrites=true&w=majority&appName=Cluster0');
+const MONGO_URI=process.env.MONGO_URI
+const DB = mongoose.connect(MONGO_URI);
 
 DB.then(() => {
     console.log('Connection successful!');

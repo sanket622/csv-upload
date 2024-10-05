@@ -1,5 +1,7 @@
 const express = require('express');
-const port = process.env.port || 8080;
+const dotenv = require("dotenv")
+dotenv.config()
+const PORT = process.env.PORT || 3000;
 const app = express();
 const path = require('path');
 
@@ -18,11 +20,11 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 app.use('/', require('./routes'));
-app.listen(port, function(err) {
+app.listen(PORT, function(err) {
     if(err) {
         console.log('Error', err);
         return;
     }
-    console.log('Server is up and running on port: ', port);
+    console.log(`Server is listening at ${PORT}`);
 
 });
