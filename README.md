@@ -1,3 +1,4 @@
+FASTER HOSTED LINK --> [https://csv-upload-three.vercel.app/]
 DEPLOYMENT LINK --> [https://csv-upload-13vz.onrender.com/].
 
 # CSV_Upload
